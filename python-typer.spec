@@ -1,7 +1,7 @@
 %define module typer
 %define oname typer
 # disable test on abf
-%bcond_without test
+%bcond_with test
 
 # NOTE Update the python-typer-slim package prior to updating this package
 # NOTE in order to keep them in sync.
